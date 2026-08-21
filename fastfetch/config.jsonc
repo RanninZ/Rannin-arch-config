@@ -1,0 +1,32 @@
+{
+    "logo": {
+        "type": "file",
+        "source": "~/.config/fastfetch/logo.txt"
+    },
+
+    "display": {
+        "separator": "  "
+    },
+
+    "modules": [
+        "break",
+
+        "title",
+        "separator",
+
+        "os",
+        "host",
+        "kernel",
+        "uptime",
+        "packages",
+        "shell",
+        "display",
+        "wm",
+        "terminal",
+        "cpu",
+        "gpu",
+        "memory",
+
+        "break"
+    ]
+}

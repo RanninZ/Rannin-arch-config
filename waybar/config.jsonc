@@ -1,0 +1,89 @@
+{
+    "layer": "top",
+    "position": "left",
+    "width": 69,
+
+    "modules-left": [
+        "custom/arch",
+        "hyprland/workspaces"
+    ],
+
+    "modules-center": [
+        "custom/app-icon"
+    ],
+
+    "modules-right": [
+        "network",
+        "pulseaudio",
+        "battery",
+        "clock",
+        "tray"
+    ],
+
+    "custom/arch": {
+        "format": "",
+        "tooltip": true,
+        "tooltip-text": "Arch Linux"
+    },
+
+    "custom/app-icon": {
+	"exec": "~/.config/waybar/scripts/app-icon.sh",
+	"interval": 1,
+	"format": "{}"
+    },
+
+    "hyprland/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true,
+    "format": "{icon}",
+    "format-icons": {
+        "active": "",
+        "default": ""
+    },
+    "on-click": "activate",
+    
+
+ },
+
+    "hyprland/window": {
+        "format": "{}",
+        "max-length": 1,
+        "separate-outputs": true
+    },
+
+    "network": {
+        "format-wifi": "󰖩",
+        "format-ethernet": "󰈀",
+        "format-disconnected": "󰖪",
+        "tooltip-format": "{essid}\nSignal: {signalStrength}%"
+    },
+
+    "pulseaudio": {
+        "format": "{icon}",
+        "format-icons": {
+            "default": [
+                "󰕿",
+                "󰖀",
+                "󰕾"
+            ]
+        },
+        "tooltip-format": "Volume: {volume}%"
+    },
+
+    "battery": {
+        "format": "󰁹",
+        "format-full": "󰁹",
+        "format-charging": "󰂄",
+        "tooltip-format": "Battery: {capacity}%"
+    },
+
+    "clock": {
+        "format": "\n{:%H:%M}",
+        "tooltip-format": "{:%A, %d %B %Y}"
+    },
+
+    "tray": {
+        "spacing": 8
+    },
+
+}

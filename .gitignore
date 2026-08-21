@@ -1,0 +1,14 @@
+# Secrets / credentials
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_ed25519
+*.p12
+*.pfx
+
+# Temporary / backup files
+*.tmp
+*.swp
+*~

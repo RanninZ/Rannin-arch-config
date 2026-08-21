@@ -1,0 +1,83 @@
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 13px;
+    border: none;
+}
+
+window#waybar {
+    background: rgba(20, 20, 20, 0.92);
+    color: #ffffff;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+    margin: 8px 0;
+}
+
+/* Arch logo */
+
+#custom-arch {
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 0;
+    margin-bottom: 8px;
+}
+
+/* Workspaces */
+
+#workspaces {
+	margin: 5px 0 15px 0;
+	padding: 5px 0;
+}
+
+#workspaces button {
+    min-height: 28px;
+    color: #777777;
+    background: transparent;
+    padding: 5px 0;
+    margin: 2px 0;
+}
+
+#workspaces button.active {
+    color: #ffffff;
+}
+
+#workspaces button:hover {
+    color: #bbbbbb;
+}
+
+/* Current application */
+
+#custom-app-icon {
+    color: #ffffff;
+    font-size: 22px;
+    padding: 15px 0;
+    margin: 10px 0;
+}
+
+/* System modules */
+
+#network,
+#pulseaudio,
+#battery,
+#clock,
+#tray {
+    color: #ffffff;
+    margin: 6px;
+    padding: 10px 0;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+#network:hover,
+#pulseaudio:hover,
+#battery:hover,
+#clock:hover,
+#tray:hover {
+    background: rgba(255, 255, 255, 0.14);
+}
+
+
+
+
